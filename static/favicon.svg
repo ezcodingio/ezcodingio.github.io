@@ -1,4 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <rect width="64" height="64" rx="14" fill="#0b3b32"/>
-  <text x="32" y="44" font-family="Menlo, Consolas, monospace" font-size="30" font-weight="bold" fill="#2fd4a7" text-anchor="middle">ez</text>
+  <path transform="matrix(0.018002 0 0 -0.018002 10.344 42.063)" fill="#2fd4a7" d="M1102 55Q1000 13 894.0 -8.0Q788 -29 670 -29Q389 -29 240.5 121.5Q92 272 92 555Q92 829 235.0 988.0Q378 1147 625 1147Q874 1147 1011.5 999.5Q1149 852 1149 584V465H390Q391 333 468.0 268.0Q545 203 698 203Q799 203 897.0 232.0Q995 261 1102 324ZM854 685Q852 801 794.5 860.5Q737 920 625 920Q524 920 464.0 858.5Q404 797 393 684Z M1419 1120H2314V891L1725 219H2314V0H1395V229L1985 901H1419Z"/>
 </svg>
