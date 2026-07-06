@@ -1,0 +1,5 @@
+{{- $parts := split site.Params.contactEmail "@" -}}
+{{- $user := index $parts 0 -}}
+{{- $domain := index $parts 1 -}}
+{{- $class := .class | default "" -}}
+<a{{ with $class }} class="{{ . }}"{{ end }} href="#" data-u="{{ $user }}" data-d="{{ $domain }}" rel="nofollow">{{ $user }}&nbsp;[at]&nbsp;{{ $domain }}</a>

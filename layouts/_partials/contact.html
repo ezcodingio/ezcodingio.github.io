@@ -5,6 +5,6 @@
       Whether you're planning a new system, scaling an existing one, or
       untangling something inherited — get in touch.
     </p>
-    <a class="cta" href="mailto:{{ site.Params.contactEmail }}">{{ site.Params.contactEmail }}</a>
+    {{ partial "email.html" (dict "class" "cta") }}
   </div>
 </section>

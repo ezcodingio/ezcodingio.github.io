@@ -5,5 +5,14 @@
   {{ partial "header.html" . }}
   <main>{{ block "main" . }}{{ end }}</main>
   {{ partial "footer.html" . }}
+  <script>
+    for (const a of document.querySelectorAll("a[data-u][data-d]")) {
+      const e = a.dataset.u + "@" + a.dataset.d;
+      a.href = "mailto:" + e;
+      a.textContent = e;
+      a.removeAttribute("data-u");
+      a.removeAttribute("data-d");
+    }
+  </script>
 </body>
 </html>
