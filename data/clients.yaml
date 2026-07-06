@@ -19,6 +19,13 @@
     data with strict correctness guarantees.
   tags: [Python, Financial Data]
 
+- name: Huguenot Services
+  location: United Kingdom
+  summary: >-
+    Migration of internal C# trade-reporting systems to Python —
+    modernising legacy tooling in a regulated finance environment.
+  tags: [Python, Trade Reporting, Legacy Migration]
+
 - name: GOV.UK — Department for International Trade
   location: United Kingdom
   summary: >-
