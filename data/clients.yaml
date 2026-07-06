@@ -1,3 +1,10 @@
+- name: Assertis
+  location: United Kingdom
+  summary: >-
+    Backend systems for UK rail ticketing — retailing, fares and
+    journey services in a high-volume, correctness-critical domain.
+  tags: [Go, Rail Ticketing, APIs]
+
 - name: Cisco
   location: Poland
   summary: >-
@@ -11,6 +18,13 @@
     Transaction reconciliation systems handling high-volume financial
     data with strict correctness guarantees.
   tags: [Python, Financial Data]
+
+- name: GOV.UK — Department for International Trade
+  location: United Kingdom
+  summary: >-
+    Government document-flow systems — migrating legacy services to
+    cloud-based Python microservices.
+  tags: [Python, Django, Public Sector]
 
 - name: Global Radio
   location: United Kingdom
