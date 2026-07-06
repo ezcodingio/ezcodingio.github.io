@@ -1,0 +1,41 @@
+- name: Cisco
+  location: Poland
+  summary: >-
+    Internal workflow orchestration platform built on Temporal —
+    durable, observable automation for engineering teams.
+  tags: [Go, Temporal, Distributed Systems]
+
+- name: Bank of America
+  location: United Kingdom
+  summary: >-
+    Transaction reconciliation systems handling high-volume financial
+    data with strict correctness guarantees.
+  tags: [Python, Financial Data]
+
+- name: Global Radio
+  location: United Kingdom
+  summary: >-
+    Large-scale Django CMS powering the UK's biggest radio brands,
+    plus native iOS and Android apps for radio listening.
+  tags: [Python, Django, iOS, Android]
+
+- name: Xiatech
+  location: United Kingdom
+  summary: >-
+    Single Data View — a realtime integration hub: ETL, enrichment and
+    streaming data into BigQuery via Go Lambdas and Kinesis.
+  tags: [Go, Kinesis, BigQuery, ETL]
+
+- name: Vertu
+  location: United Kingdom
+  summary: >-
+    Backend service powering the concierge chat experience for Vertu
+    phone clients worldwide.
+  tags: [Python, Realtime Messaging]
+
+- name: Multimedia Polska
+  location: Poland
+  summary: >-
+    Cable modem provisioning system automating device lifecycle for a
+    national cable operator.
+  tags: [Provisioning, Telecoms]

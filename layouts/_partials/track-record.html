@@ -1,0 +1,17 @@
+<section id="track-record" class="track-record">
+  <div class="container">
+    <h2>Selected engagements</h2>
+    <ul class="card-grid">
+      {{ range hugo.Data.clients }}
+      <li class="card client-card">
+        <h3>{{ .name }} <span class="loc">{{ .location }}</span></h3>
+        <p>{{ .summary }}</p>
+        <ul class="tags">
+          {{ range .tags }}<li>{{ . }}</li>{{ end }}
+        </ul>
+      </li>
+      {{ end }}
+    </ul>
+    <p class="track-record-more">…and more, across telecoms, finance, media and retail.</p>
+  </div>
+</section>

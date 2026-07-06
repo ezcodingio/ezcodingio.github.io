@@ -1,0 +1,16 @@
+baseURL = "https://ezcoding.io/"
+locale = "en-gb"
+title = "EasyCoding — Backend Engineering Consultancy"
+timeZone = "Europe/Warsaw"
+disableKinds = ["taxonomy", "term", "rss"]
+
+[params]
+  description = "EasyCoding is a backend engineering consultancy specialising in Go and Python systems: distributed workflows, data pipelines, and high-reliability services."
+  contactEmail = "contact@ezcoding.io"
+  github = "https://github.com/ezcodingio"
+
+[minify]
+  minifyOutput = true
+
+[markup.goldmark.renderer]
+  unsafe = false

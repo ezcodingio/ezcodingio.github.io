@@ -1,0 +1,13 @@
+<section id="services" class="services">
+  <div class="container">
+    <h2>What we do</h2>
+    <ul class="card-grid">
+      {{ range hugo.Data.services }}
+      <li class="card">
+        <h3>{{ .title }}</h3>
+        <p>{{ .body }}</p>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</section>

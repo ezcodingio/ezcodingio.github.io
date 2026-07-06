@@ -1,0 +1,23 @@
+- title: Backend Systems Engineering
+  body: >-
+    Production-grade services in Go, Python and Kotlin. API design,
+    performance work and operability built in from day one — systems
+    designed to be run, observed and evolved, not just demoed.
+
+- title: Distributed Workflows & Orchestration
+  body: >-
+    Durable execution platforms built on Temporal, and event-driven
+    architectures that keep long-running business processes correct
+    through retries, failures and deploys.
+
+- title: Data Pipelines & Integration
+  body: >-
+    ETL and realtime streaming with Kinesis, serverless Go, data
+    enrichment and warehousing into BigQuery. Making disparate systems
+    speak one language.
+
+- title: Legacy Modernisation & Rescue
+  body: >-
+    Taking over, stabilising and evolving inherited backends. Two
+    decades of production experience across PHP, Python, Java and Go —
+    very little surprises us.
