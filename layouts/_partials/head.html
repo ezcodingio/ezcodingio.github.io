@@ -34,4 +34,5 @@
     "sameAs": [{{ site.Params.github }}]
   }
   </script>
+  {{ if eq hugo.Environment "production" }}{{ partial "cloudflare-analytics.html" . }}{{ end }}
 </head>
