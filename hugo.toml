@@ -8,6 +8,7 @@ disableKinds = ["taxonomy", "term", "rss"]
   description = "EasyCoding is a backend engineering consultancy specialising in Go and Python systems: distributed workflows, data pipelines, and high-reliability services."
   contactEmail = "contact@ezcoding.io"
   github = "https://github.com/ezcodingio"
+  linkedin = "https://www.linkedin.com/in/dariusz-g%C3%B3recki-10507854/"
 
 [minify]
   minifyOutput = true
