@@ -6,6 +6,9 @@ disableKinds = ["taxonomy", "term", "rss"]
 
 [params]
   description = "EasyCoding is a backend engineering consultancy specialising in Go and Python systems: distributed workflows, data pipelines, and high-reliability services."
+  # Cloudflare Web Analytics beacon token — public (shipped in page HTML),
+  # TF-managed in home-iac stacks/dns. Beacon renders in production env only.
+  cloudflareAnalyticsToken = "2f2d190349b14483ae421a7993eed243"
   contactEmail = "contact@ezcoding.io"
   github = "https://github.com/ezcodingio"
   githubPersonal = "https://github.com/canni"

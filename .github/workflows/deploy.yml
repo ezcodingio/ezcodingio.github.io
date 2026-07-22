@@ -32,7 +32,6 @@ jobs:
       - name: Build
         env:
           HUGO_ENVIRONMENT: production
-          HUGO_PARAMS_CLOUDFLAREANALYTICSTOKEN: ${{ secrets.CF_WEB_ANALYTICS_TOKEN }}
         run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
       - uses: actions/upload-pages-artifact@v5
         with:
